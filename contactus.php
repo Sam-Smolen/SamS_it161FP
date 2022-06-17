@@ -14,7 +14,7 @@
      <header>
      <h1>Contact Form</h1>
      <nav class="topnav" id="myTopnav">
-       <a href="template.html" class="active">Welcome</a>
+       <a href="template.html">Welcome</a>
        <a href="testimonials.html">Testimonials</a>
        <a href="portfolio.html">Portfolio</a>
        <a href="about.html">About us</a>
