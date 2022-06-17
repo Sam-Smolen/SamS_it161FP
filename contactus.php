@@ -18,7 +18,7 @@
        <a href="testimonials.html">Testimonials</a>
        <a href="portfolio.html">Portfolio</a>
        <a href="about.html">About us</a>
-       <a href="contact.php" class="active">Contact Siddha</a>
+       <a href="contactus.php" class="active">Contact Siddha</a>
        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
      </nav>
      </header>
@@ -51,7 +51,7 @@
        
      <footer>
       <p><small>&copy; 2022 by 
-          <a href="contact.php">Sam Smolen</a>, All Rights Reserved ~ 
+          <a href="contactus.php">Sam Smolen</a>, All Rights Reserved ~ 
           <a id="html-checker" href="#">Check HTML</a> ~ 
           <a id="css-checker" href="#">Check CSS</a></small>
      </p>
