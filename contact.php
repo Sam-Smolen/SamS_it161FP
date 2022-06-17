@@ -6,7 +6,7 @@
   <meta name="robots" content="noindex,nofollow" />
   <meta name="viewport" content="width=device-width" />
   <meta charset="utf-8" />
-  <link rel="stylesheet" href="css/portal.css" />
+  <link rel="stylesheet" href="css/template.css" />
   <link rel="stylesheet" href="css/nav.css" />
   <link rel="stylesheet" href="css/forms.css" />
  </head>
@@ -18,7 +18,7 @@
        <a href="testimonials.html">Testimonials</a>
        <a href="portfolio.html">Portfolio</a>
        <a href="about.html">About us</a>
-       <a href="contact.php" class="active">Contact Sam</a>
+       <a href="contact.php" class="active">Contact Siddha</a>
        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
      </nav>
      </header>
@@ -27,7 +27,7 @@
      
      
        
-       <h2 class="subheader">Contact Sam</h2>
+       <h2 class="subheader">We'd love to hear from you!</h2>
        <?php
         /*
          * Below are 2 different forms to be re-used       
