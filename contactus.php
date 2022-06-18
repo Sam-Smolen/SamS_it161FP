@@ -108,6 +108,7 @@
      <footer>
       <p><small>&copy; 2022 by 
           <a href="contactus.php">Sam Smolen</a>, All Rights Reserved ~ 
+          <a href="disclaimer.html">Disclaimer</a> ~
           <a id="html-checker" href="#">Check HTML</a> ~ 
           <a id="css-checker" href="#">Check CSS</a></small>
      </p>
