@@ -17,7 +17,7 @@
                 <a href="template.html">
                     <img class="logo" src="images/logo.jpg" alt="logo" />
                 </a>
-                <span style="vertical-align:top"> Contact us</span>
+                <span style="vertical-align:top"> Siddha Reed Construction</span>
             </div>
      </h1>
      <nav class="topnav" id="myTopnav">
