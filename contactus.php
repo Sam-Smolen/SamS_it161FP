@@ -12,7 +12,14 @@
  </head>
  <body>
      <header>
-     <h1>Contact Form</h1>
+     <h1>
+            <div>
+                <a href="template.html">
+                    <img class="logo" src="images/logo.jpg" alt="logo" />
+                </a>
+                <span style="vertical-align:top"> Contact us</span>
+            </div>
+     </h1>
      <nav class="topnav" id="myTopnav">
        <a href="template.html">Welcome</a>
        <a href="testimonials.html">Testimonials</a>
