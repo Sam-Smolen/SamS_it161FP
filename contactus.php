@@ -43,6 +43,10 @@
     <label>
         Comments:<br /><textarea name="Comments" cols="36" rows="4" placeholder="Your comments are important to us!" tabindex="60"></textarea>
     </label>
+</div>
+<div class="g-recaptcha" data-sitekey="6LeDaSoUAAAAACnEiqA3QAkiRU-Q_wtk0vuBa_OX"></div>
+<div>
+    <input type="submit" value="submit" />
 </div>	
 </form>
        <?php
