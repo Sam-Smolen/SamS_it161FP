@@ -28,6 +28,17 @@
      
        
        <h2 class="subheader">We'd love to hear from you!</h2>
+       <form action="contactus.php" method="post">
+<div>
+    <label>
+        Name:<br /><input type="text" name="Name" required="required" placeholder="Full Name (required)" title="Name is required" tabindex="10" size="44" autofocus />
+    </label>
+</div>
+<div>	
+    <label>
+        Email:<br /><input type="email" name="Email" required="required" placeholder="Email (required)" title="A valid email is required" tabindex="20" size="44" />
+    </label>
+</div>
        <?php
         /*
          * Below are 2 different forms to be re-used       
