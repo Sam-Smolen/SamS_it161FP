@@ -64,7 +64,7 @@
         $website = "Sams IT161 Website";  //place NAME of your client's website
 
         //echo loadContact('simple.php');#demonstrates a simple contact form
-        echo loadContact('multiple.php');#demonstrates multiple form elements
+        //echo loadContact('multiple.php');#demonstrates multiple form elements
 
 	?>
        <p class="clear-recaptcha"></p>
