@@ -8,6 +8,7 @@
   <meta charset="utf-8" />
   <link rel="stylesheet" href="css/template.css" />
   <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/gallery.css" />
  </head>
  <body>
      <header>
@@ -40,11 +41,101 @@
      <!--img class="phone" src="images/fillerimage.jpg" alt="welcome image" /-->
        
        <h2 class="subheader"><strong>Portfolio</strong></h2>
-       
-       <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper </p>
-       <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-       <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-       
+       <!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="images/bricks.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="images/fence.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="images/frame.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="images/landscape.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="images/paint01.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="images/paint02.jpg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="images/bricks.jpg" style="width:100%" onclick="currentSlide(1)" alt="Brickwork">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/fence.jpg" style="width:100%" onclick="currentSlide(2)" alt="Fencing">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/frame.jpg" style="width:100%" onclick="currentSlide(3)" alt="Framing">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/landscape.jpg" style="width:100%" onclick="currentSlide(4)" alt="Landscaping">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/paint01.jpg" style="width:100%" onclick="currentSlide(5)" alt="Painting">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/paint02.jpg" style="width:100%" onclick="currentSlide(6)" alt="More painting">
+    </div>
+  </div>
+</div>
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("demo");
+    let captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>        
      <footer>
       <p><small>&copy; 2022 by 
           <a href="contactus.php">Sam Smolen</a>, All Rights Reserved ~ 
