@@ -24,7 +24,7 @@
        <a href="template.html">Welcome</a>
        <a href="testimonials.html">Testimonials</a>
        <a href="portfolio.html">Portfolio</a>
-       <a href="disclaimer.html">About us</a>
+       <a href="disclaimer.html">Disclaimer</a>
        <a href="https://web-students.net/site112/it161FinalProj/SamS_it161FP/contactus.php" class="active">Contact Siddha</a>
        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
      </nav>
